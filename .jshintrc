@@ -1,0 +1,22 @@
+{
+  "esversion": 6,
+  "boss": true,
+  "curly": true,
+  "eqeqeq": true,
+  "eqnull": true,
+  "immed": true,
+  "latedef": true,
+  "newcap": true,
+  "noarg": true,
+  "node": true,
+  "sub": true,
+  "undef": true,
+  "unused": false,
+  "globals": {
+    "React": true,
+    "require": true,
+    "define": true,
+    "module": true,
+    "window": true
+  }
+}

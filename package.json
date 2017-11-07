@@ -1,0 +1,53 @@
+{
+  "name": "react-slider",
+  "version": "0.1.0",
+  "description": "A simple but useful react slider component",
+  "main": "slider.min.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "grunt": "grunt --force",
+    "http": "grunt connect:dev --force",
+    "babel": "grunt babel --force",
+    "uglify": "grunt uglify --force",
+    "csslint": "grunt csslint --force",
+    "cssmin": "grunt cssmin --force",
+    "copy": "grunt copy --force",
+    "watch": "grunt watch --force"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yaohaixiao/react-slider.git"
+  },
+  "keywords": [
+    "react",
+    "slider"
+  ],
+  "author": "yaohaixiao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yaohaixiao/react-slider/issues"
+  },
+  "homepage": "https://github.com/yaohaixiao/react-slider#readme",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "grunt": "^1.0.1",
+    "grunt-babel": "^7.0.0",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-csslint": "^2.0.0",
+    "grunt-contrib-cssmin": "^2.2.1",
+    "grunt-contrib-uglify": "^3.1.0",
+    "grunt-contrib-watch": "^1.0.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}
